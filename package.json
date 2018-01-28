@@ -1,0 +1,29 @@
+{
+  "name": "pug-lint-globs",
+  "version": "0.1.0",
+  "description": "An npm package that extends pug-lint to handle multiple files at once.",
+  "main": "./lib/pug-lint-globs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamRADFunk/pug-lint-globs.git"
+  },
+  "keywords": [
+    "pug-lint",
+    "file",
+    "glob",
+    "globs"
+  ],
+  "author": "William Funk <light2dark@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WilliamRADFunk/pug-lint-globs/issues"
+  },
+  "homepage": "https://github.com/WilliamRADFunk/pug-lint-globs#readme",
+  "dependencies": {
+    "file": "^0.2.2",
+    "pug-lint": "^2.5.0"
+  }
+}
