@@ -5,7 +5,8 @@
   "main": "./lib/pug-lint-globs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pug-lint-help": "pug-lint --help"
+    "pug-lint-help": "pug-lint --help",
+    "pug-lint": "pug-lint \"test-folder/test.pug\""
   },
   "repository": {
     "type": "git",
