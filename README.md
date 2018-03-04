@@ -1,6 +1,8 @@
 # dog-groomer
 (In Progress) An npm package that extends pug-lint to handle multiple files at once.
 
+WARNING: Not yet ready for public consumption.
+
 ## To Use:
 -- `dog-groomer` --  lints all pugs starting at root level.
 
