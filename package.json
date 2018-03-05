@@ -1,6 +1,6 @@
 {
   "name": "dog-groomer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An npm package that extends pug-lint to handle multiple files at once.",
   "main": "./lib/pug-lint-globs",
   "scripts": {
