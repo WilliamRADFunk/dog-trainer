@@ -1,6 +1,6 @@
 {
   "name": "dog-groomer",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "An npm package that extends pug-lint to handle multiple files at once.",
   "main": "./lib/pug-lint-globs",
   "scripts": {
@@ -14,12 +14,13 @@
     "url": "git+https://github.com/WilliamRADFunk/dog-groomer.git"
   },
   "keywords": [
-    "pug",
-    "pug-lint",
-    "linter",
-    "file",
-    "glob",
-    "globs"
+    "pug", "pug-lint", "linter", "fs", "glob", "globs", "puglint", "jadelint", "jade-lint", "jade",
+    "lint", "code style", "formatter", "style guide", "validate", "lint pug", "lint jade", "pug lint",
+    "jade lint", "linter pug", "linter jade", "pug linter", "jade linter", "pug-linter", "jade-linter",
+    "linting", "linting pug", "linting jade", "pug linting", "jade linting", "pug-linting", "jade-linting",
+    "hint", "hint pug", "hint jade", "pug hint", "jade hint", "pug-hint", "jade-hint", "hinter", "hinter pug",
+    "hinter jade", "pug hinter", "jade hinter", "pug-hinter", "jade-hinter", "hinting", "hinting pug",
+    "hinting jade", "pug hinting", "jade hinting", "pug-hinting", "jade-hinting"
   ],
   "author": "William Funk <light2dark@gmail.com>",
   "license": "MIT",
