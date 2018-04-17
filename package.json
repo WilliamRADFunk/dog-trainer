@@ -1,6 +1,6 @@
 {
   "name": "dog-trainer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An npm package that watches pug files for change, and compiling only those that do.",
   "main": "./lib/pug-globs",
   "scripts": {
