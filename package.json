@@ -25,6 +25,11 @@
     "jade-compiler",
     "jade",
     "pug2html",
+    "angular",
+    "angular 2",
+    "angular 4",
+    "angular 5",
+    "lightweight",
     "code style",
     "formatter",
     "style guide",
@@ -75,6 +80,7 @@
   },
   "homepage": "https://github.com/WilliamRADFunk/dog-trainer#readme",
   "dependencies": {
+    "filewatcher": "^3.0.1",
     "glob": "^7.1.2",
     "pug": "^2.0.3",
     "yargs": "^11.0.0"

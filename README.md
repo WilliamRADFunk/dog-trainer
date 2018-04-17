@@ -10,20 +10,18 @@ Most of the magic is done by:
 
 [Filewatcher](https://www.npmjs.com/package/filewatcher)
 
-I just brought the two together to solve a problem of mine.
+A more efficient way to watch and compile pug 2 html on an individual basis. Great for Angular 2 through 5 projects.
+
+I just brought the three together to solve a problem of mine.
 
 If it helps you to solve a problem, too, then all the better.
 
 ## To Use:
 ~~ Create an npm script with one of the following choices:
 
-~~ `dog-groomer` ~~  lints all pugs starting at root level.
+~~ `dog-trainer` ~~  watches all pugs starting at root level, compiling each (only the altered file) to html upon detected change.
 
-~~ `dog-groomer --source=<your-starting-folder>` ~~ lints all pugs starting at `<your-starting-folder>`.
-
-~~ `dog-groomer --config=<config-file>` ~~ uses linting configuration found in provided config file (must be at root level).
-
-If no config is provided, a default (aggressive) set is used.
+~~ `dog-trainer --source=<your-starting-folder>` ~~ watches all pugs starting at `<your-starting-folder>`, compiling each (only the altered file) to html upon detected change.
 
 ## Contact
 
