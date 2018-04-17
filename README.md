@@ -1,12 +1,14 @@
-# dog-groomer
-An npm package that extends pug-lint to handle multiple files at once.
+# dog-trainer
+An npm package that watches pug files for change, and compiling only those that do.
 
 ## Credit
 Most of the magic is done by:
 
-[Pug-Lint](https://www.npmjs.com/package/pug-lint)
+[Pug](https://www.npmjs.com/package/pug)
 
 [Glob](https://www.npmjs.com/package/glob)
+
+[Filewatcher](https://www.npmjs.com/package/filewatcher)
 
 I just brought the two together to solve a problem of mine.
 

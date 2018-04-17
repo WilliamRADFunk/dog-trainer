@@ -1,3 +1,3 @@
 #!/usr/bin/env node
 var args = require('yargs').argv;
-require('../lib/pug-lint-globs')(args);
+require('../lib/pug-globs')(args);

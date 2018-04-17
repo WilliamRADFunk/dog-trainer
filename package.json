@@ -1,36 +1,82 @@
 {
-  "name": "dog-groomer",
-  "version": "1.0.1",
-  "description": "An npm package that extends pug-lint to handle multiple files at once.",
-  "main": "./lib/pug-lint-globs",
+  "name": "dog-trainer",
+  "version": "0.1.0",
+  "description": "An npm package that watches pug files for change, and compiling only those that do.",
+  "main": "./lib/pug-globs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "dog-groomer": "bin/dog-groomer.js"
+    "dog-trainer": "bin/dog-trainer.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WilliamRADFunk/dog-groomer.git"
+    "url": "git+https://github.com/WilliamRADFunk/dog-trainer.git"
   },
   "keywords": [
-    "pug", "pug-lint", "linter", "fs", "glob", "globs", "puglint", "jadelint", "jade-lint", "jade",
-    "lint", "code style", "formatter", "style guide", "validate", "lint pug", "lint jade", "pug lint",
-    "jade lint", "linter pug", "linter jade", "pug linter", "jade linter", "pug-linter", "jade-linter",
-    "linting", "linting pug", "linting jade", "pug linting", "jade linting", "pug-linting", "jade-linting",
-    "hint", "hint pug", "hint jade", "pug hint", "jade hint", "pug-hint", "jade-hint", "hinter", "hinter pug",
-    "hinter jade", "pug hinter", "jade hinter", "pug-hinter", "jade-hinter", "hinting", "hinting pug",
-    "hinting jade", "pug hinting", "jade hinting", "pug-hinting", "jade-hinting"
+    "pug",
+    "watch",
+    "watcher",
+    "fs",
+    "glob",
+    "globs",
+    "pug compiler",
+    "jade compiler",
+    "jade-compiler",
+    "jade",
+    "pug2html",
+    "code style",
+    "formatter",
+    "style guide",
+    "validate",
+    "compiler pug",
+    "compiler jade",
+    "pug compiler",
+    "jade compiler",
+    "watcher pug",
+    "watcher jade",
+    "pug watcher",
+    "jade watcher",
+    "pug-watcher",
+    "jade-watcher",
+    "pug to html",
+    "compiling pug",
+    "compiling jade",
+    "pug compiling",
+    "jade compiling",
+    "pug-compiling",
+    "jade-compiling",
+    "hint",
+    "hint pug",
+    "hint jade",
+    "pug hint",
+    "jade hint",
+    "pug-hint",
+    "jade-hint",
+    "hinter",
+    "hinter pug",
+    "hinter jade",
+    "pug hinter",
+    "jade hinter",
+    "pug-hinter",
+    "jade-hinter",
+    "hinting",
+    "hinting pug",
+    "hinting jade",
+    "pug hinting",
+    "jade hinting",
+    "pug-hinting",
+    "jade-hinting"
   ],
   "author": "William Funk <light2dark@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WilliamRADFunk/dog-groomer/issues"
+    "url": "https://github.com/WilliamRADFunk/dog-trainer/issues"
   },
-  "homepage": "https://github.com/WilliamRADFunk/dog-groomer#readme",
+  "homepage": "https://github.com/WilliamRADFunk/dog-trainer#readme",
   "dependencies": {
     "glob": "^7.1.2",
-    "pug-lint": "^2.5.0",
+    "pug": "^2.0.3",
     "yargs": "^11.0.0"
   }
 }
